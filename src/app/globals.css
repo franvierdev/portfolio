@@ -79,7 +79,7 @@ body {
 */
 .area {
   background: #000000;
-  background: -webkit-linear-gradient(to left, #000000, #4e54c8);
+  background: -webkit-linear-gradient(to left, #000000, #4e54c8ac);
   top: 0px;
   position: absolute;
   z-index: -1;
