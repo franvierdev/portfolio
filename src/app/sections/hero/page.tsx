@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className=" w-[96%] h-screen area ">
+    <div className=" w-screen h-screen area ">
       <ul className="  circles ">
         <li className="blur-sm hover:blur-0"></li>
         <li className="blur-sm  hover:blur-0"></li>
