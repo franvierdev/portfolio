@@ -18,8 +18,8 @@ export default function Hero() {
         <li className="blur-sm  hover:blur-0"></li>
         <li className="blur-sm  hover:blur-0"></li>
       </ul>
-      <div className="mt-20 gap-5">
-        <div className=" backdrop-blur-sm  animate-fade-down max-w-xs mx-2 p-5 rounded-3xl min-h-80 border border-slate-100/10  bg-black/10 shadow-xl shadow-slate-500/20  mt-8 flex flex-col items-center gap-2 font-mono ">
+      <div className="mt-20 ">
+        <div className=" backdrop-blur-sm  animate-fade-down w-60 sm:max-w-xs sm:mx-2 py-5 rounded-3xl min-h-80 border border-slate-100/10  bg-black/10 shadow-xl shadow-slate-500/20  mt-8 flex flex-col items-center gap-2 font-mono ">
           <Image
             src="/imgs/perfil.jpg"
             alt={"asd"}
