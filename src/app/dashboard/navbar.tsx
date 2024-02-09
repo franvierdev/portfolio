@@ -50,7 +50,7 @@ export default function Navbar() {
         className={
           open
             ? `backdrop-blur-sm animate-fade-right max-w-md flex flex-col  w-full min-h-screen items-center justify-around mx-auto `
-            : `backdrop-blur-sm animate-reverse hidden max-w-md shadow-lg shadow-slate-500 rounded-xl sm:flex  w-full items-center justify-around mx-auto`
+            : `backdrop-blur-sm animate-reverse  hidden max-w-md shadow-lg shadow-slate-500 rounded-xl sm:flex  w-full items-center justify-around mx-auto`
         }
       >
         <Link

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className=" w-screen h-screen area ">
-      <ul className="  circles ">
+    <div className="contaniner w-screen flex px-20 h-svh area ">
+      <ul className=" circles ">
         <li className="blur-sm hover:blur-0"></li>
         <li className="blur-sm  hover:blur-0"></li>
         <li className="blur-sm  hover:blur-0"></li>
@@ -18,7 +18,7 @@ export default function Hero() {
         <li className="blur-sm  hover:blur-0"></li>
         <li className="blur-sm  hover:blur-0"></li>
       </ul>
-      <div className="flex mt-20 gap-5">
+      <div className="mt-20 gap-5">
         <div className=" backdrop-blur-sm  animate-fade-down max-w-xs mx-2 p-5 rounded-3xl min-h-80 border border-slate-100/10  bg-black/10 shadow-xl shadow-slate-500/20  mt-8 flex flex-col items-center gap-2 font-mono ">
           <Image
             src="/imgs/perfil.jpg"
@@ -36,12 +36,12 @@ export default function Hero() {
             magnam molestias.
           </p>
         </div>
-        <div className="  animate-fade-down  mx-2 p-5   mt-8 flex flex-col items-start gap-2 font-mono ">
-          <p className="animate-jump-in animate-duration-1000">I am...</p>
-          <p className="text-4xl text-blue-900/90 font-bold">
-            Francisco Salazar.
-          </p>
-        </div>
+      </div>
+      <div className=" self-end mb-10 animate-fade-down  mx-2 px-5   h-16  font-mono ">
+        <p className="animate-jump-in animate-duration-1000">I am...</p>
+        <p className="text-4xl text-blue-900/90 font-bold">
+          Francisco Salazar.
+        </p>
       </div>
     </div>
   );
