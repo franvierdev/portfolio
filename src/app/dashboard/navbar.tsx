@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Navbar() {
   let [open, setOpen] = useState(false);
 
@@ -12,8 +12,8 @@ export default function Navbar() {
     console.log(open);
   };
   return (
-    <div className="  flex w-full items-center justify-start ps-2 bg-slate-50/10 sm:bg-transparent sm:mx-auto sm:mt-4 font-mono text-sm">
-      <button onClick={handleSubmit} className="sm:hidden ">
+    <div className="  flex w-full items-center justify-start p-2 py-3 bg-slate-50/10 sm:bg-transparent sm:mx-auto sm:mt-4 font-mono text-sm">
+      <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ export default function Navbar() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6 "
+            className="h-8 "
           >
             <path
               strokeLinecap="round"
@@ -36,7 +36,7 @@ export default function Navbar() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6  absolute z-10 top-1"
+            className="h-8  absolute z-10 top-1"
           >
             <path
               strokeLinecap="round"
@@ -46,6 +46,18 @@ export default function Navbar() {
           </svg>
         )}
       </button>
+      <Link
+        className="bg-gray-500  absolute right-2 top-2 sm:-ms-60 sm:left-0 p-1 ease-in duration-300"
+        href="/"
+      >
+        <Image
+          src="/imgs/icono.png"
+          alt="iconoFS"
+          width={300 / 2}
+          height={300 / 2}
+          className="w-8 "
+        />
+      </Link>
       <div
         className={
           open
@@ -53,12 +65,6 @@ export default function Navbar() {
             : `backdrop-blur-sm animate-reverse  hidden max-w-md shadow-lg shadow-slate-500 rounded-xl sm:flex  w-full items-center justify-around mx-auto`
         }
       >
-        <Link
-          className="hover:decoration-slice  text-blue-400 hover:bg-slate-50/30  ease-in duration-300"
-          href="/"
-        >
-          Home
-        </Link>
         <Link
           className="hover:underline  text-blue-400 hover:bg-slate-50/30 ease-in duration-300"
           href="/"

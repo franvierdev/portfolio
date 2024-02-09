@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="contaniner w-screen flex px-20 h-svh area ">
+    <div className="contaniner w-screen sm:flex px-20 h-svh area ">
       <ul className=" circles ">
-        <li className="blur-sm hover:blur-0"></li>
+        <li className="blur-sm hover:blur-0 "></li>
         <li className="blur-sm  hover:blur-0"></li>
         <li className="blur-sm  hover:blur-0"></li>
         <li className="blur-sm hover:blur-0"></li>
@@ -23,9 +23,9 @@ export default function Hero() {
           <Image
             src="/imgs/perfil.jpg"
             alt={"asd"}
-            width={808}
-            height={1080}
-            className="rounded-full w-28    mb-2"
+            width={808 / 2}
+            height={1080 / 2}
+            className="rounded-full w-28 mb-2"
           />
           <p className="text-lg">Francisco Salazar</p>
           <p className="text-blue-600 font-bold">Desarrollador Web</p>
