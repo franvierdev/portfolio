@@ -12,7 +12,7 @@ export default function Navbar() {
     console.log(open);
   };
   return (
-    <div className="  flex w-full items-center justify-start p-2 py-3 bg-slate-50/10 sm:bg-transparent sm:mx-auto sm:mt-4 font-mono text-sm">
+    <div className="  flex w-full items-center justify-start p-2 py-2 bg-slate-50/10 sm:bg-transparent sm:mx-auto sm:mt-4 font-mono text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
@@ -47,7 +47,7 @@ export default function Navbar() {
         )}
       </button>
       <Link
-        className="bg-gray-500  absolute right-2 top-2 sm:-ms-60 sm:left-0 p-1 ease-in duration-300"
+        className="bg-gray-500  absolute right-2 top-1 sm:-ms-60 sm:left-0 p-1 ease-in duration-300"
         href="/"
       >
         <Image
@@ -61,12 +61,12 @@ export default function Navbar() {
       <div
         className={
           open
-            ? `backdrop-blur-sm animate-fade-right max-w-md flex flex-col  w-full min-h-screen items-center justify-around mx-auto `
+            ? `text-3xl bg-slate-700/40 backdrop-blur-md animate-fade-right max-w-md flex flex-col  w-full min-h-screen items-center justify-around mx-auto `
             : `backdrop-blur-sm animate-reverse  hidden max-w-md shadow-lg shadow-slate-500 rounded-xl sm:flex  w-full items-center justify-around mx-auto`
         }
       >
         <Link
-          className="hover:underline  text-blue-400 hover:bg-slate-50/30 ease-in duration-300"
+          className="hover:underline text-blue-400 hover:bg-slate-50/30 ease-in duration-300"
           href="/"
         >
           Sobre mi
