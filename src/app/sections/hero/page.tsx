@@ -36,14 +36,12 @@ export default function Hero() {
         </div>
         <div className=" mb-10 animate-fade-down  h-16  font-mono ">
           <p className="animate-jump-in animate-duration-1000">I am...</p>
-          <p className="text-4xl text-blue-900/90 font-bold">
+          <p className="text-4xl text-[#9A9A9A] font-bold">
             Francisco Salazar.
           </p>
         </div>
-        <div className=" self-end mb-10 animate-fade-down  mx-2 px-5   h-16  font-mono ">
-          <p className="text-5xl text-blue-900/90 font-bold">
-            Desarrollador Web
-          </p>
+        <div className="  mb-10 animate-fade-down   h-16  font-mono ">
+          <p className="text-4xl text-[#9A9A9A] font-bold">Desarrollador Web</p>
         </div>
       </div>
     </div>
