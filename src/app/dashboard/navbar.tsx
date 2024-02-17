@@ -20,7 +20,7 @@ export default function Navbar() {
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="currentColor"
+            stroke="white"
             className="h-8 "
           >
             <path
@@ -35,7 +35,7 @@ export default function Navbar() {
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="currentColor"
+            stroke="white"
             className="h-8  absolute z-10 top-1"
           >
             <path
@@ -47,33 +47,39 @@ export default function Navbar() {
         )}
       </button>
       <Link
-        className="bg-slate-600/80 rounded w-10 sm:w-12  absolute right-2 top-1 sm:top-3 sm:ms-60 sm:left-0 p-1 ease-in duration-300"
+        className="bg-slate-700/60 backdrop-blur rounded w-10 sm:w-12 sm:h-12  absolute right-2 top-1 sm:top-3 sm:ms-60 sm:left-0 p-1 ease-in duration-300 sm:shadow-lg sm:shadow-slate-600"
         href="/"
       >
         <Image
-          src="/imgs/icono2.png"
+          src="/imgs/iconos/icono3.png"
           alt="iconoFS"
-          width={300 / 2}
-          height={300 / 2}
-          className=" rounded "
+          width={300}
+          height={300}
+          className=" sm:mx-auto sm:mt-1 rounded sm:w-8"
         />
       </Link>
       <div
         className={
           open
-            ? ` bg-slate-700/60 backdrop-blur-lg animate-fade-right flex flex-col  w-full h-screen items-center justify-around mx-auto `
-            : `text-2xl backdrop-blur-lg py-2 bg-slate-800/70 animate-reverse hidden max-w-md shadow-lg shadow-slate-500 rounded-xl sm:flex  w-full items-center justify-around mx-auto`
+            ? ` bg-slate-700/80 backdrop-blur-lg text-2xl animate-fade-right flex flex-col  w-full h-screen items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
+            : `text-xl backdrop-blur-lg py-2 bg-slate-800/70 animate-reverse hidden max-w-md shadow-lg shadow-slate-500 rounded-xl sm:flex  w-full items-center justify-around mx-auto`
         }
       >
         <Link
-          className="hover:underline text-white hover:bg-slate-50/30 ease-in duration-300"
+          className="hover:underline hover:bg-slate-50/30 ease-in duration-300"
+          href="/"
+        >
+          Home
+        </Link>
+        <Link
+          className="hover:underline hover:bg-slate-50/30 ease-in duration-300"
           href="/"
         >
           Sobre mi
         </Link>
 
         <a
-          className="hover:underline  text-white hover:bg-slate-50/30 ease-in duration-300"
+          className="hover:underline  hover:bg-slate-50/30 ease-in duration-300"
           href="#"
         >
           Projects

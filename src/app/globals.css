@@ -224,3 +224,20 @@ body {
 /*
 -- End BackGround Animation 
 */
+/** 
+Francisco Animation
+*/
+
+svg {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+text {
+  filter: url(#filter);
+  fill: #9a9a9a;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
