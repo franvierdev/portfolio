@@ -80,8 +80,8 @@ export default function Hero() {
           </p>
         </div>
         <div className="  mb-10 animate-fade-down   h-16  font-mono ">
-          <p className="text-4xl text-[#9A9A9A]  font-bold">
-            Desarrollador Web
+          <p className="text-6xl text-[#9A9A9A]  font-bold">
+            <Nombre nome="Desarrollador Web" />
           </p>
         </div>
       </div>
