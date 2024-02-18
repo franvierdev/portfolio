@@ -28,44 +28,44 @@ export default function Hero() {
             alt={"asd"}
             width={808}
             height={1080}
-            className="rounded-full w-60  mb-2"
+            className="rounded-full w-52 mx-auto  mb-2"
           />
 
-          <div className="flex justify-around mt-6 sm:mt-10 max-sm:mx-8">
+          <div className="flex justify-around mt-6 sm:mt-10 max-sm:gap-3 max-sm:mx-7">
             <Link href="https://github.com/franvierdev">
               <Image
                 src="/imgs/iconos/github2.png"
                 alt="e-mail"
                 width={32}
                 height={32}
-                className="p-1 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
+                className="p-1 max-sm:w-9 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
               />
             </Link>
-            <Link href="https://github.com/franvierdev">
+            <Link href="https://wa.link/70sm9h">
               <Image
                 src="/imgs/iconos/whatsapp.png"
                 alt="e-mail"
                 width={32}
                 height={32}
-                className="p-1 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
+                className="p-1 max-sm:w-9 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
               />
             </Link>
-            <Link href="https://github.com/franvierdev">
+            <Link href="https://www.linkedin.com/in/francisco-salazar-7a91b6292">
               <Image
                 src="/imgs/iconos/linkedin.png"
                 alt="e-mail"
                 width={32}
                 height={32}
-                className="p-1 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
+                className="p-1 max-sm:w-9 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
               />
             </Link>
-            <Link href="https://github.com/franvierdev">
+            <Link href="mailto:franccois.dev@gmail.com">
               <Image
                 src="/imgs/iconos/email.png"
                 alt="e-mail"
                 width={32}
                 height={32}
-                className="p-1 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
+                className="p-1 max-sm:w-9 bg-slate-400/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
               />
             </Link>
           </div>
@@ -74,9 +74,9 @@ export default function Hero() {
           <p className="animate-jump-in animate-duration-1000">I am...</p>
           <p className="sm:text-8xl text-6xl max-w-xs text-[#9A9A9A] font-bold">
             <Nombre />
-            <p className="max-sm:text-6xl max-sm:-mt-9">
-              <Nombre nome={ln} />
-            </p>
+          </p>
+          <p className="sm:text-8xl text-6xl max-w-xs text-[#9A9A9A] font-bold">
+            <Nombre nome={ln} />
           </p>
         </div>
         <div className="  mb-10 animate-fade-down   h-16  font-mono ">
