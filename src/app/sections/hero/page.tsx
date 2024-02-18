@@ -21,7 +21,7 @@ export default function Hero() {
         <li className="  hover:blur-0"></li>
         <li className="  hover:blur-0"></li>
       </ul>
-      <div className="mt-14 sm:w-11/12 gap-8 w-xs sm:mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-6 sm:mt-52 sm:border border-slate-900/40 bg-slate-600/30 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-100/10 p-6 pt-7 sm:p-7">
+      <div className="mt-14 sm:w-11/12 gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-6 sm:mt-52 sm:border border-slate-900/40 bg-slate-600/30 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-100/10 p-6 pt-7 sm:p-7">
         <div className=" self-center  animate-fade-down   sm:mx-2  ">
           <Image
             src="/imgs/perfil.jpg"
@@ -76,13 +76,13 @@ export default function Hero() {
           </div>
         </div>
         <div className=" animate-fade-down text-blue-900 h-16  font-mono ">
-          <p className="animate-jump-in font-bold text-3xl -mt-2 sm:text-7xl animate-duration-1000">
+          <p className="animate-jump-in font-bold text-3xl -mt-2 sm:text-5xl animate-duration-1000">
             I am...
           </p>
-          <p className="sm:text-8xl text-5xl max-w-xs max-sm:-mt-4 text-[#9A9A9A] font-bold">
+          <p className="sm:text-7xl text-5xl max-w-xs max-sm:-mt-4 text-[#9A9A9A] font-bold">
             <Nombre />
           </p>
-          <p className="sm:text-8xl text-5xl max-sm:-mt-10 max-w-xs text-[#9A9A9A] font-bold">
+          <p className="sm:text-8xl text-5xl max-sm:-mt-10 -mt-4 max-w-xs text-[#9A9A9A] font-bold">
             <Nombre nome={ln} />
           </p>
           <button className=" mt-24 sm:mt-[68px] inline-flex  bg-blue-600 rounded-xl text-slate-300 px-4 py-2">
