@@ -21,7 +21,7 @@ export default function Hero() {
         <li className="  hover:blur-0"></li>
         <li className="  hover:blur-0"></li>
       </ul>
-      <div className="mt-14 sm:w-11/12 gap-8 mx-auto flex max-sm:flex-col max-sm:gap-10 sm:mt-52 sm:border border-slate-900/40 bg-slate-600/30 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-100/10 p-8">
+      <div className="mt-14 sm:w-11/12 w-auto  gap-8 mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-10 sm:mt-52 sm:border border-slate-900/40 bg-slate-600/30 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-100/10 p-4 sm:p-7">
         <div className=" self-center animate-fade-down w-60  sm:mx-2  ">
           <Image
             src="/imgs/perfil.jpg"
@@ -32,7 +32,7 @@ export default function Hero() {
             className="rounded-full w-52 mx-auto  mb-2"
           />
 
-          <div className="flex justify-around mt-6 sm:mt-10 max-sm:gap-3 max-sm:mx-7 ">
+          <div className="flex justify-around mt-6 sm:mt-10 h-9 max-sm:gap-3 max-sm:mx-7 ">
             <Link href="https://github.com/franvierdev">
               <Image
                 src="/imgs/iconos/github2.png"
@@ -75,19 +75,22 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <div className=" mb-10 animate-fade-down text-blue-900 h-16  font-mono ">
-          <p className="animate-jump-in font-bold text-7xl animate-duration-1000">
+        <div className=" animate-fade-down text-blue-900 h-16  font-mono ">
+          <p className="animate-jump-in font-bold text-3xl -mt-2 sm:text-7xl animate-duration-1000">
             I am...
           </p>
-          <p className="sm:text-8xl text-6xl max-w-xs text-[#9A9A9A] font-bold">
+          <p className="sm:text-8xl text-5xl max-w-xs max-sm:-mt-4 text-[#9A9A9A] font-bold">
             <Nombre />
           </p>
-          <p className="sm:text-8xl text-6xl max-w-xs text-[#9A9A9A] font-bold">
+          <p className="sm:text-8xl text-5xl max-sm:-mt-10 max-w-xs text-[#9A9A9A] font-bold">
             <Nombre nome={ln} />
           </p>
+          <button className=" mt-24 sm:mt-[68px] inline-flex  bg-blue-600 rounded-xl text-slate-300 px-4 py-2">
+            Download CV
+          </button>
         </div>
-        <div className="  mb-10 animate-fade-down   h-16  font-mono ">
-          <p className="text-6xl text-[#9A9A9A]  font-bold">
+        <div className="   animate-fade-down   sm:h-16  font-mono ">
+          <p className="text-5xl text-[#9A9A9A]  font-bold">
             <Nombre nome="Desarrollador Web" />
           </p>
         </div>
