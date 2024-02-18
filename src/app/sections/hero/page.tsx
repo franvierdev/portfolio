@@ -5,7 +5,7 @@ export default function Hero() {
   const ln = "Salazar";
 
   return (
-    <div className="contaniner w-full px-10 sm:px-20 h-svh area ">
+    <div className="contaniner w-full px-2 sm:px-20 h-svh area ">
       <ul className=" circles ">
         <li className=" hover:blur-0 "></li>
         <li className="  hover:blur-0"></li>
@@ -21,8 +21,8 @@ export default function Hero() {
         <li className="  hover:blur-0"></li>
         <li className="  hover:blur-0"></li>
       </ul>
-      <div className="mt-14 sm:w-11/12 w-auto  gap-8 mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-10 sm:mt-52 sm:border border-slate-900/40 bg-slate-600/30 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-100/10 p-4 sm:p-7">
-        <div className=" self-center animate-fade-down w-60  sm:mx-2  ">
+      <div className="mt-14 sm:w-11/12 gap-8 sm:mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-6 sm:mt-52 sm:border border-slate-900/40 bg-slate-600/30 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-100/10 p-4 sm:p-7">
+        <div className=" self-center  animate-fade-down   sm:mx-2  ">
           <Image
             src="/imgs/perfil.jpg"
             alt={"asd"}
