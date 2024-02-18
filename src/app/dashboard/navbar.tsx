@@ -12,7 +12,7 @@ export default function Navbar() {
     console.log(open);
   };
   return (
-    <div className="  flex items-center justify-start p-2 py-2 bg-slate-50/10 sm:bg-transparent sm:mx-auto sm:mt-4 font-mono text-sm">
+    <div className="  flex items-center justify-start p-2 py-2 bg-slate-50/10 sm:bg-transparent  sm:mx-auto sm:mt-4 text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
@@ -55,6 +55,7 @@ export default function Navbar() {
           alt="iconoFS"
           width={300}
           height={300}
+          priority={true}
           className=" sm:mx-auto sm:mt-[2px] rounded sm:w-8"
         />
       </Link>
