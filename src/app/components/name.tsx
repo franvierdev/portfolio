@@ -23,7 +23,6 @@ export default function Nombre({ nome = "Francisco" }) {
           <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
 
           <feMerge x="0" width="100%" result="merge1">
-            <feMergeNode in="black" />
             <feMergeNode in="comp1" />
             <feMergeNode in="off1b" />
 
@@ -47,7 +46,6 @@ export default function Nombre({ nome = "Francisco" }) {
           </feMerge>
 
           <feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
-            <feMergeNode in="black" />
             <feMergeNode in="comp2" />
             <feMergeNode in="off2b" />
 

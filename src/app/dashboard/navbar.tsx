@@ -47,7 +47,7 @@ export default function Navbar() {
         )}
       </button>
       <Link
-        className="bg-slate-700/60 backdrop-blur rounded w-10 sm:w-12 sm:h-12 sm:ms-10 absolute right-2 top-1 sm:top-[6px] sm:left-0 p-1 ease-in duration-300 sm:shadow-lg sm:shadow-slate-500/70"
+        className="bg-slate-700/60 backdrop-blur rounded w-10 sm:w-10 sm:h-10 sm:ms-10 absolute right-2 top-1 sm:top-[10px] sm:left-0  ease-in duration-300 sm:shadow-lg sm:shadow-slate-500/70"
         href="/"
       >
         <Image
@@ -56,14 +56,14 @@ export default function Navbar() {
           width={300}
           height={300}
           priority={true}
-          className=" sm:mx-auto sm:mt-[2px] rounded sm:w-8"
+          className=" sm:mx-auto sm:mt-[5px] rounded sm:w-7"
         />
       </Link>
       <div
         className={
           open
             ? ` bg-slate-700/80 backdrop-blur-lg text-2xl rounded-lg animate-fade-right flex flex-col  w-full h-[680px] items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
-            : `text-xl backdrop-blur-lg py-2 bg-slate-800/70 animate-reverse hidden max-w-md shadow-lg shadow-slate-500/70 rounded-lg sm:flex  w-full items-center justify-around mx-auto`
+            : `text-xl backdrop-blur-lg py-2 bg-slate-800/70 animate-reverse hidden max-w-md shadow-lg shadow-slate-500/70 rounded-lg sm:flex  w-full items-center justify-around mx-auto text-gray-300`
         }
       >
         <Link

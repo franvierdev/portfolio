@@ -21,7 +21,7 @@ export default function Hero() {
         <li className="  hover:blur-0"></li>
         <li className="  hover:blur-0"></li>
       </ul>
-      <div className="mt-14 sm:w-11/12 gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-6 sm:mt-52 sm:border border-slate-900/40 bg-slate-600/30 backdrop-blur-md rounded-2xl shadow-xl shadow-slate-100/10 p-6 pt-7 sm:p-7">
+      <div className="mt-14 sm:w-11/12 gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-6 sm:mt-48 sm:border border-slate-900/40 bg-slate-700/80 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 p-6 pt-7 sm:p-7">
         <div className=" self-center  animate-fade-down   sm:mx-2  ">
           <Image
             src="/imgs/perfil.jpg"
@@ -29,7 +29,7 @@ export default function Hero() {
             width={808}
             height={1080}
             priority={true}
-            className="rounded-full w-52 mx-auto  mb-2"
+            className="rounded-full w-48 sm:w-52 mx-auto opacity-90 border-4 border-slate-600 mb-2"
           />
 
           <div className="flex justify-around mx-4 mt-6 sm:mt-10 h-9 max-sm:gap-3 max-sm:mx-7 ">
@@ -75,24 +75,21 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <div className=" animate-fade-down text-blue-900 h-16  font-mono ">
-          <p className="animate-jump-in font-bold text-3xl -mt-2 sm:text-5xl animate-duration-1000">
-            I am...
-          </p>
-          <p className="sm:text-7xl text-5xl max-w-xs max-sm:-mt-4 text-[#9A9A9A] font-bold">
+        <div className=" animate-fade-down text-blue-900 h-16  ">
+          <p className="sm:text-6xl text-5xl max-w-xs max-sm:-mt-4 text-[#9A9A9A] font-bold">
             <Nombre />
           </p>
-          <p className="sm:text-8xl text-5xl max-sm:-mt-10 -mt-4 max-w-xs text-[#9A9A9A] font-bold">
+          <p className="sm:text-6xl text-5xl max-sm:-mt-10 -mt-8 max-w-xs text-[#9A9A9A] font-bold">
             <Nombre nome={ln} />
           </p>
-          <button className=" mt-24 sm:mt-[68px] inline-flex  bg-blue-600 rounded-xl text-slate-300 px-4 py-2">
+          <div className="   animate-fade-down      ">
+            <p className="text-7xl text-[#9A9A9A]  font-bold">
+              <Nombre nome="Web Developer" />
+            </p>
+          </div>
+          <button className=" mt-12 sm:mt-24  inline-flex  bg-blue-700 shadow-inner shadow-blue-800 rounded-xl text-gray-200 font-bold px-4 py-2 hover:-translate-y-1 duration-200 hover:shadow-md hover:shadow-slate-500/70 hover:bg-blue-600 ">
             Download CV
           </button>
-        </div>
-        <div className="   animate-fade-down   sm:h-16  font-mono ">
-          <p className="text-5xl text-[#9A9A9A]  font-bold">
-            <Nombre nome="Desarrollador Web" />
-          </p>
         </div>
       </div>
     </div>
