@@ -62,7 +62,7 @@ export default function Navbar() {
       <div
         className={
           open
-            ? ` bg-slate-700/80 backdrop-blur-lg text-2xl rounded-lg animate-fade-right flex flex-col  w-full h-[680px] items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
+            ? ` bg-slate-800/70 backdrop-blur-lg text-2xl rounded-lg animate-fade-right flex flex-col  w-full h-[680px] items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
             : `text-xl backdrop-blur-lg py-2 bg-slate-800/70 animate-reverse hidden max-w-md shadow-lg shadow-slate-500/70 rounded-lg sm:flex  w-full items-center justify-around mx-auto text-gray-300`
         }
       >
