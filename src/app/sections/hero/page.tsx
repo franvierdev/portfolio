@@ -19,7 +19,7 @@ export default function Hero() {
         <li className="  hover:blur"></li>
         <li className="  hover:blur"></li>
       </ul>
-      <div className="mt-14 sm:w-11/12 gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-6 sm:mt-48 sm:border border-slate-900/40 bg-violet-950 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 p-6 pt-7 sm:p-7">
+      <div className="mt-14 sm:mt-44 sm:w-11/12 max-w-5xl  gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[90%]  flex max-sm:flex-col max-sm:gap-6 sm:border border-slate-900/40 bg-slate-800/70 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 p-6 pt-7 sm:p-7">
         <div className=" self-center  animate-fade-down   sm:mx-2  ">
           <Image
             src="/imgs/perfil.jpg"
