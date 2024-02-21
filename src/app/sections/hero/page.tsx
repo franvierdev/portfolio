@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Hero() {
   return (
-    <div className="contaniner w-full px-2 sm:px-20  pt-2 h-svh area ">
+    <div className="contaniner w-full px-2 sm:px-20 relative pt-2 h-svh area ">
       <ul className=" circles ">
         <li className=" hover:blur  "></li>
         <li className="  hover:blur"></li>
@@ -38,7 +38,7 @@ export default function Hero() {
                 width={32}
                 height={32}
                 priority={true}
-                className="p-1 max-sm:w-9 bg-slate-400/70 hover:bg-slate-300/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
+                className="p-1 max-sm:w-9 bg-gray-400/70 hover:bg-slate-300/70 backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
               />
             </Link>
             <Link href="https://wa.link/70sm9h">
@@ -48,7 +48,7 @@ export default function Hero() {
                 width={32}
                 height={32}
                 priority={true}
-                className="p-1 max-sm:w-9 bg-slate-400/70 hover:bg-slate-300/70  backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
+                className="p-1 max-sm:w-9 bg-gray-400/70 hover:bg-slate-300/70  backdrop-blur-md rounded border-2 border-slate-700 shadow-md shadow-slate-500/70 hover:w-9  duration-150 hover:-translate-y-1 "
               />
             </Link>
             <Link href="https://www.linkedin.com/in/francisco-salazar-7a91b6292">
@@ -103,6 +103,14 @@ export default function Hero() {
             inventore, consequatur perspiciatis ipsum nesciunt.
           </p>
         </div>
+      </div>
+      <div className="absolute bottom-1 right-2/4">
+        <Link
+          href="/"
+          className=" animate-ping  max-sm:hidden text-blue-700 text-4xl"
+        >
+          ▼
+        </Link>
       </div>
     </div>
   );

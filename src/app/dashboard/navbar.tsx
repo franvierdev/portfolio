@@ -12,7 +12,7 @@ export default function Navbar() {
     console.log(open);
   };
   return (
-    <div className="  flex items-center justify-start p-2  bg-slate-50/10 sm:bg-transparent  sm:mx-auto sm:mt-4 text-sm">
+    <div className="  flex items-center justify-start p-2  bg-slate-800/70 max-sm:pt-3 max-sm:backdrop-blur-sm sm:bg-transparent  sm:mx-auto sm:mt-4 text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
@@ -20,7 +20,7 @@ export default function Navbar() {
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="white"
+            stroke="gray"
             className="h-8 "
           >
             <path
@@ -36,7 +36,7 @@ export default function Navbar() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="white"
-            className="h-8  absolute z-10 top-1"
+            className="h-8 animate-fade-right absolute z-10 top-4 left-4"
           >
             <path
               strokeLinecap="round"
@@ -47,7 +47,7 @@ export default function Navbar() {
         )}
       </button>
       <Link
-        className="bg-slate-700/60 backdrop-blur rounded w-10 sm:w-10 sm:h-10 sm:ms-10 absolute right-2 top-1 sm:top-[10px] sm:left-0  ease-in duration-300 sm:shadow-lg sm:shadow-slate-500/70"
+        className="bg-slate-800/70 backdrop-blur  rounded w-10 sm:w-10 sm:h-10 sm:ms-10 absolute right-2 top-1 sm:top-5 sm:left-0  ease-in duration-300 sm:shadow-lg sm:shadow-slate-500/70"
         href="/"
       >
         <Image
