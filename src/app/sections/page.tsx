@@ -20,7 +20,7 @@ export default function Hero() {
           <li className=""></li>
         </ul>
       </div>
-      <div className="mt-6 sm:mt-36 sm:w-11/12 max-w-5xl  gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[600px]    flex max-sm:flex-col max-sm:gap-6 sm:border border-slate-900/40 bg-slate-800/70 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 px-6 pt-7 sm:p-7">
+      <div className="mt-6 sm:mt-36 sm:w-11/12 max-w-5xl  gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[530px]    flex max-sm:flex-col max-sm:gap-6 sm:border border-slate-900/40 bg-slate-800/70 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 px-6 pt-7 sm:p-7">
         <div className=" self-center  animate-fade-down   sm:mx-2  ">
           <Image
             src="/imgs/perfil.jpg"
@@ -80,15 +80,15 @@ export default function Hero() {
             Salazar
           </p>
 
-          <div className=" animate-fade-down">
+          <div className=" animate-fade-down ">
             <p className="text-4xl max-sm:text-4xl text-gray-900/80  sm:mt-4  font-bold">
               Web Developer
             </p>
-            <div className="flex gap-4">
-              <button className=" mt-12 sm:mt-9  inline-flex  bg-blue-600 shadow-inner shadow-blue-800 rounded-xl border border-blue-900 text-gray-200 hover:text-white font-bold px-4 py-2 hover:scale-105 duration-200   hover:shadow-blue-700 hover:shadow-inner hover:bg-blue-500 ">
+            <div className="flex gap-4 max-sm:mt-6">
+              <button className="  sm:mt-9  inline-flex  bg-blue-600 shadow-inner shadow-blue-800 rounded-xl border border-blue-900 text-gray-200 hover:text-white font-bold px-4 py-2 hover:scale-105 duration-200   hover:shadow-blue-700 hover:shadow-inner hover:bg-blue-500 ">
                 Download CV
               </button>
-              <button className=" mt-12 sm:mt-9  inline-flex  bg-gray-300 shadow-inner shadow-gray-400 rounded-xl border border-gray-500 text-blue-700 font-bold px-4 py-2 hover:scale-105 duration-200 hover:shadow-md hover:shadow-slate-500/70 hover:bg-white ">
+              <button className="  sm:mt-9  inline-flex  bg-gray-300 shadow-inner shadow-gray-400 rounded-xl border border-gray-500 text-blue-700 font-bold px-4 py-2 hover:scale-105 duration-200 hover:shadow-md hover:shadow-slate-500/70 hover:bg-white ">
                 Explore More
               </button>
             </div>
