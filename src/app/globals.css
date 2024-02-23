@@ -16,16 +16,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -100,7 +90,7 @@ body {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(152, 152, 152, 0.784);
+  background: rgba(33, 33, 33, 0.784);
   animation: animate 25s linear infinite;
   bottom: -150px;
 }
@@ -225,7 +215,7 @@ body {
 -- End BackGround Animation 
 */
 /** 
-Francisco Animation
+Francisco Salazar Animation
 */
 
 svg {
@@ -236,8 +226,37 @@ svg {
 
 text {
   filter: url(#filter);
-  fill: #9a9a9a;
+  fill: rgb(202, 202, 202);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/*Web Developer change*/
+.contenedor {
+  display: flex;
+  width: 300px;
+  height: 40px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+  animation: cambiar 7s infinite;
+}
+
+ul,
+p {
+  margin: 0;
 }

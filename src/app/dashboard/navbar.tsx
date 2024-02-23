@@ -12,7 +12,7 @@ export default function Navbar() {
     console.log(open);
   };
   return (
-    <div className="  flex items-center justify-start p-2  bg-slate-800/70 max-sm:pt-3 max-sm:backdrop-blur-sm sm:bg-transparent  sm:mx-auto sm:mt-4 text-sm">
+    <div className=" flex items-center justify-start p-2 right-1/3 bg-slate-800/70 max-sm:pt-3 max-sm:backdrop-blur-sm sm:bg-transparent  sm:mx-auto sm:mt-4 text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
@@ -20,7 +20,7 @@ export default function Navbar() {
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="gray"
+            stroke="white"
             className="h-8 "
           >
             <path
@@ -81,7 +81,7 @@ export default function Navbar() {
 
         <a
           className="p-2 px-3 hover:underline  hover:bg-slate-50/30 ease-in duration-300"
-          href="#"
+          href="#p "
         >
           Projects
         </a>
