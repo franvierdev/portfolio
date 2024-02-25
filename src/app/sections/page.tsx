@@ -4,7 +4,7 @@ import Projects from "./projects/page";
 export default function Hero() {
   return (
     <div className="">
-      <div className="contaniner w-full px-2 sm:px-20 z-10 pt-2 h-svh area ">
+      <div className="contaniner w-full px-2 sm:px-20  pt-2 h-svh area ">
         <ul className=" circles ">
           <li className=""></li>
           <li className=""></li>
@@ -20,7 +20,7 @@ export default function Hero() {
           <li className=""></li>
         </ul>
       </div>
-      <div className="mt-6 sm:mt-36 sm:w-11/12 max-w-5xl  gap-8 w-xs mx-2 sm:mx-auto sm:h-96 h-[530px]    flex max-sm:flex-col max-sm:gap-6 sm:border border-slate-900/40 bg-slate-800/70 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 px-6 pt-7 sm:p-7">
+      <div className="mt-6 max-sm:mt-10 lg:mt-16 xl:mt-28  sm:w-11/12 max-w-5xl  gap-8 w-xs mx-7 sm:mx-auto sm:h-96 h-[550px] flex max-sm:flex-col max-sm:gap-6 sm:border border-slate-900/40 bg-slate-800/70 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 px-6 pt-7 sm:p-7">
         <div className=" self-center  animate-fade-down   sm:mx-2  ">
           <Image
             src="/imgs/perfil.jpg"
@@ -31,7 +31,7 @@ export default function Hero() {
             className="rounded-2xl w-48 sm:w-52 mx-auto opacity-90 border-4 shadow-lg shadow-slate-800 border-slate-500 mb-2"
           />
 
-          <div className="flex justify-around mx-4 mt-6 sm:mt-10 h-9 max-sm:gap-3 max-sm:mx-7 ">
+          <div className="flex max-lg:flex-col max-sm:flex-row justify-around mx-4 mt-6 sm:mt-10 h-9 max-sm:gap-3 max-sm:mx-7 ">
             <Link href="https://github.com/franvierdev">
               <Image
                 src="/imgs/iconos/github2.png"
@@ -106,7 +106,7 @@ export default function Hero() {
       </div>
       <Link
         href="#p"
-        className="sm:absolute max-sm:hidden bottom-1 left-1/2 z-50 animate-bounce text-blue-700 text-4xl "
+        className="sm:absolute max-sm:hidden bottom-1 left-1/2  animate-bounce text-blue-700 text-4xl "
       >
         ▼
       </Link>

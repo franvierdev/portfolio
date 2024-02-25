@@ -8,11 +8,9 @@ export default function Navbar() {
 
   const handleSubmit = (e: { preventDefault: () => void }) => {
     open === false ? setOpen(true) : setOpen(false);
-
-    console.log(open);
   };
   return (
-    <div className=" flex items-center justify-start p-2 right-1/3 bg-slate-800/70 max-sm:pt-3 max-sm:backdrop-blur-sm sm:bg-transparent  sm:mx-auto sm:mt-4 text-sm">
+    <div className="z-10 max-sm:relative flex items-center  justify-start p-2 sm:right-1/3 bg-slate-800/70 max-sm:pt-3 max-sm:backdrop-blur-sm sm:bg-transparent   sm:mt-4 text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
@@ -62,12 +60,12 @@ export default function Navbar() {
       <div
         className={
           open
-            ? ` bg-slate-800/70 backdrop-blur-lg text-2xl rounded-lg animate-fade-right flex flex-col  w-full h-[680px] items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
+            ? `absolute max-sm:top-1 -ms-2 -mt-1 bg-slate-800 backdrop-blur-lg text-2xl rounded-lg animate-fade-right flex flex-col  w-full h-screen items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
             : `text-xl backdrop-blur-lg  bg-slate-800/70 animate-reverse hidden max-w-md shadow-lg shadow-slate-500/70 rounded-lg sm:flex  w-full items-center justify-center mx-auto text-gray-300`
         }
       >
         <Link
-          className="p-2 px-3 hover:underline hover:bg-slate-50/30 ease-in duration-300"
+          className="p-2  px-3 hover:underline hover:bg-slate-50/30 ease-in duration-300"
           href="/"
         >
           Home
