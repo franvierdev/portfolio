@@ -60,7 +60,7 @@ export default function Navbar() {
       <div
         className={
           open
-            ? `absolute max-sm:top-1 -ms-2 -mt-1 bg-slate-800 backdrop-blur-lg text-2xl rounded-lg animate-fade-right flex flex-col  w-full h-screen items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
+            ? `absolute max-sm:top-1 -ms-2 -mt-1 bg-slate-800 backdrop-blur-lg text-2xl animate-fade-right flex flex-col  w-full h-screen items-center justify-center  gap-5 mx-auto shadow-slate-500 text-white `
             : `text-xl backdrop-blur-lg  bg-slate-800/70 animate-reverse hidden max-w-md shadow-lg shadow-slate-500/70 rounded-lg sm:flex  w-full items-center justify-center mx-auto text-gray-300`
         }
       >
