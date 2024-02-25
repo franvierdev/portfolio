@@ -10,7 +10,7 @@ export default function Navbar() {
     open === false ? setOpen(true) : setOpen(false);
   };
   return (
-    <div className="z-10 max-sm:relative flex items-center  justify-start p-2 sm:right-1/3 bg-slate-800/70 max-sm:pt-3 max-sm:backdrop-blur-sm sm:bg-transparent   sm:mt-4 text-sm">
+    <div className="z-10 fixed flex items-center  justify-start p-2 sm:right-1/3 bg-slate-800/70 max-sm:py-2.5 max-sm:top-0 max-sm:w-full max-sm:backdrop-blur-sm sm:bg-transparent   sm:-mt-40  text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
@@ -45,7 +45,7 @@ export default function Navbar() {
         )}
       </button>
       <Link
-        className="bg-slate-800/70 backdrop-blur  rounded w-10 sm:w-10 sm:h-10 sm:ms-10 absolute right-2 top-1 sm:top-5 sm:left-0  ease-in duration-300 sm:shadow-lg sm:shadow-slate-500/70"
+        className="bg-slate-800/70 backdrop-blur  rounded w-10 sm:w-10 sm:h-10  absolute right-2 sm:-ms-14 top-1 sm:top-3 sm:left-0  ease-in duration-300 sm:shadow-lg sm:shadow-slate-500/70"
         href="/"
       >
         <Image
