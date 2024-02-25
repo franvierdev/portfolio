@@ -5,7 +5,7 @@ import Projects from "./sections/projects/page";
 export default function Home() {
   return (
     <>
-      <div className="mb-96">
+      <div className="mb-56">
         <Hero />
       </div>
       <div className="" id="p">
