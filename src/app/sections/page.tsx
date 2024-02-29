@@ -4,7 +4,7 @@ import Projects from "./projects/page";
 export default function Hero() {
   return (
     <div className="">
-      <div className="contaniner w-full px-2 sm:px-20  pt-2 h-svh area ">
+      <div className="contaniner w-full px-2 sm:px-20  pt-2  h-svh  area ">
         <ul className=" circles ">
           <li className=""></li>
           <li className=""></li>
@@ -75,10 +75,10 @@ export default function Hero() {
           </div>
         </div>
         <div className=" animate-fade-down sm:mt-8 mt-2 h-16  ">
-          <p className="sm:text-6xl font-semibold text-4xl text-blue-500/80 max-w-xs max-sm:-mt-3  ">
+          <h1 className="sm:text-6xl font-semibold text-4xl text-blue-500/80 max-w-xs max-sm:-mt-3  ">
             Francisco <br />
             Salazar
-          </p>
+          </h1>
 
           <div className=" animate-fade-down ">
             <p className="text-4xl max-sm:text-4xl text-gray-900/80  sm:mt-4  font-bold">

@@ -5,10 +5,10 @@ import Projects from "./sections/projects/page";
 export default function Home() {
   return (
     <>
-      <div className="mb-56 sm:mt-40 max-sm:mt-20">
+      <div className=" sm:mt-40 2xl:mt-60 h-svh max-sm:mt-20">
         <Hero />
       </div>
-      <div className="" id="p">
+      <div className="-mt-40 2xl:-mt-60 bg-gray-100 " id="p">
         <Projects />
       </div>
     </>

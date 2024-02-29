@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={rubik.className + ``}>
-        <header className=" mx-auto ">
+        <header className=" sm:mx-auto ">
           <Navbar />
         </header>
         <div className="">{children}</div>
