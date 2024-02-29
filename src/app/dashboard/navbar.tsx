@@ -6,9 +6,13 @@ import Image from "next/image";
 export default function Navbar() {
   let [open, setOpen] = useState(false);
 
+  const ct = (e: { preventDefault: () => void }) => {
+    setOpen(false);
+  };
   const handleSubmit = (e: { preventDefault: () => void }) => {
     open === false ? setOpen(true) : setOpen(false);
   };
+
   return (
     <div className="z-10 fixed flex items-center  justify-start p-2 sm:right-1/3 bg-slate-800/70 max-sm:py-2.5 max-sm:top-0 max-sm:w-full max-sm:backdrop-blur-sm sm:bg-transparent   sm:-mt-40 2xl:-mt-60 text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
@@ -67,12 +71,14 @@ export default function Navbar() {
         <Link
           className="p-2  px-3 hover:underline hover:bg-slate-50/30 sm:rounded-s-lg ease-in duration-300"
           href="/"
+          onClick={ct}
         >
           Home
         </Link>
         <Link
           className=" p-2 px-3 hover:underline hover:bg-slate-50/30 ease-in duration-300"
           href="/"
+          onClick={ct}
         >
           Sobre mi
         </Link>
@@ -80,6 +86,7 @@ export default function Navbar() {
         <a
           className="p-2 px-3 hover:underline  hover:bg-slate-50/30 ease-in duration-300"
           href="#p "
+          onClick={ct}
         >
           Projects
         </a>
@@ -87,6 +94,7 @@ export default function Navbar() {
         <a
           className="p-2 px-3 hover:underline text-blue-500 hover:text-blue-800   rounded-e-lg  hover:bg-slate-50/60 ease-in duration-300"
           href="#"
+          onClick={ct}
         >
           Contáctame
         </a>
