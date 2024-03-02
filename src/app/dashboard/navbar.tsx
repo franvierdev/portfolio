@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Navbar() {
   let [open, setOpen] = useState(false);
 
-  const ct = (e: { preventDefault: () => void }) => {
+  const ct = () => {
     setOpen(false);
   };
   const handleSubmit = (e: { preventDefault: () => void }) => {
@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="z-10 fixed flex items-center  justify-start p-2 sm:right-1/3 bg-slate-800/70 max-sm:py-2.5 max-sm:top-0 max-sm:w-full max-sm:backdrop-blur-sm sm:bg-transparent   sm:-mt-40 2xl:-mt-60 text-sm">
+    <div className="z-10 fixed flex items-center   max-sm:justify-start p-2  bg-slate-800/70 max-sm:py-2.5 max-sm:top-0 max-sm:w-full max-sm:backdrop-blur-sm sm:bg-transparent   sm:-mt-40 2xl:-mt-96 text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
