@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 import Link from "next/link";
 import Image from "next/image";
+
 export default function Navbar() {
   let [open, setOpen] = useState(false);
 
@@ -14,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="z-10 fixed flex items-center   max-sm:justify-start p-2  bg-slate-800/70 max-sm:py-2.5 max-sm:top-0 max-sm:w-full max-sm:backdrop-blur-sm sm:bg-transparent   sm:-mt-40 2xl:-mt-96 text-sm">
+    <div className="z-10 fixed flex items-center   max-sm:justify-start p-2  bg-slate-800/70 max-sm:py-2.5 max-sm:top-0 max-sm:w-full max-sm:backdrop-blur-sm sm:bg-transparent   sm:-mt-40 2xl:-mt-60 text-sm">
       <button onClick={handleSubmit} className="sm:hidden h-8">
         {open === false ? (
           <svg
@@ -83,21 +84,21 @@ export default function Navbar() {
           Sobre mi
         </Link>
 
-        <a
+        <Link
           className="p-2 px-3 hover:underline  hover:bg-slate-50/30 ease-in duration-300"
           href="#p "
           onClick={ct}
         >
           Projects
-        </a>
+        </Link>
 
-        <a
-          className="p-2 px-3 hover:underline text-blue-500 hover:text-blue-800   rounded-e-lg  hover:bg-slate-50/60 ease-in duration-300"
+        <Link
+          className="ula p-2 px-3 hover:underline  text-blue-500 hover:text-blue-800   rounded-e-lg  hover:bg-slate-50/60 ease-in duration-300"
           href="#"
           onClick={ct}
         >
           Contáctame
-        </a>
+        </Link>
       </div>
     </div>
   );

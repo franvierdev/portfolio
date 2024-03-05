@@ -260,3 +260,17 @@ ul,
 p {
   margin: 0;
 }
+/* .ula {
+  width: max-content;
+  font-size: 72px;
+  position: relative;
+}
+.ula::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 4px;
+  color: black;
+  width: 100%;
+  left: 0px;
+} */

@@ -10,7 +10,7 @@ export default function Projects() {
         Projects
       </h2>
       <div className="border mt-10 grid grid-rows-3 max-w-screen-xl items-center w-11/12 sm:w-9/12 text-center mx-auto sm:grid-cols-2 gap-10  max-sm:gap-y-5  sm:px-4">
-        <div>
+        <div className="border">
           <p className="text-3xl font-bold">Clima-App</p>
           <span>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
@@ -19,7 +19,7 @@ export default function Projects() {
         </div>
 
         <div
-          className=" place-self-center
+          className=" place-self-center border max-w-xs 
         "
         >
           <Link href={"https://clim-app-nu.vercel.app/"}>
@@ -28,7 +28,7 @@ export default function Projects() {
               alt=""
               width={1387}
               height={1018}
-              className=" max-w-xs  sm:max-w-sm "
+              className=" w-80  sm:max-w-sm hover:scale-150 duration-200 "
             />
           </Link>
         </div>
@@ -39,7 +39,7 @@ export default function Projects() {
               alt=""
               width={2227}
               height={1237}
-              className=" max-w-xs sm:max-w-sm "
+              className=" max-w-xs sm:max-w-sm hover:scale-150 duration-200"
             />
           </Link>
         </div>
@@ -64,7 +64,7 @@ export default function Projects() {
               alt=""
               width={2227}
               height={1237}
-              className=" max-w-xs sm:max-w-sm "
+              className=" max-w-xs sm:max-w-sm hover:scale-150 duration-200 "
             />
           </Link>
         </div>
