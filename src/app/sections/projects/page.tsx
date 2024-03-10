@@ -9,15 +9,19 @@ export default function Projects() {
       <h2 className="sm:ms-28 max-sm:text-center text-5xl text-gray-800 font-bold animate-fade-right underline">
         Projects
       </h2>
-      <div className="border mt-10 grid grid-rows-3 max-w-screen-xl items-center w-11/12 sm:w-9/12 text-center mx-auto sm:grid-cols-2 gap-10  max-sm:gap-y-5  sm:px-4">
-        <div className="border">
+      <div className=" mt-10 grid grid-rows-3  max-w-screen-xl items-center w-11/12 sm:w-11/12 text-center mx-auto sm:grid-cols-2 gap-20 gap-x-0  max-sm:gap-y-5  sm:px-4">
+        <div className="border  ">
           <p className="text-3xl font-bold">Clima-App</p>
           <span>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
             explicabo aut blanditiis molestias, amet quam.
           </span>
+          <div className="flex justify-around leading-10">
+            <p>vite</p>
+            <p>react</p>
+            <p>Tailwind Css</p>
+          </div>
         </div>
-
         <div
           className=" place-self-center border max-w-xs 
         "
@@ -28,7 +32,7 @@ export default function Projects() {
               alt=""
               width={1387}
               height={1018}
-              className=" w-80  sm:max-w-sm hover:scale-150 duration-200 "
+              className=" max-sm:max-w-xs  sm:w-72 hover:scale-125 duration-200 "
             />
           </Link>
         </div>
@@ -39,7 +43,7 @@ export default function Projects() {
               alt=""
               width={2227}
               height={1237}
-              className=" max-w-xs sm:max-w-sm hover:scale-150 duration-200"
+              className=" max-sm:max-w-xs sm:w-96 hover:scale-125 duration-200"
             />
           </Link>
         </div>
@@ -64,7 +68,7 @@ export default function Projects() {
               alt=""
               width={2227}
               height={1237}
-              className=" max-w-xs sm:max-w-sm hover:scale-150 duration-200 "
+              className=" max-sm:max-w-xs sm:w-96 hover:scale-125 duration-200 "
             />
           </Link>
         </div>

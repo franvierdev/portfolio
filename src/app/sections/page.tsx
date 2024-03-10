@@ -75,13 +75,13 @@ export default function Hero() {
           </div>
         </div>
         <div className=" animate-fade-down sm:mt-8 mt-2 h-16  ">
-          <h1 className="sm:text-6xl font-semibold text-4xl text-blue-500/80 max-w-xs max-sm:-mt-3  ">
+          <h1 className="sm:text-6xl font-semibold text-4xl text-blue-500 max-w-xs max-sm:-mt-3  ">
             Francisco <br />
             Salazar
           </h1>
 
           <div className=" animate-fade-down ">
-            <p className="text-4xl max-sm:text-4xl text-gray-900/80  sm:mt-4  font-bold">
+            <p className="text-4xl max-sm:text-4xl text-gray-900  sm:mt-4  font-bold">
               Web Developer
             </p>
             <div className="flex gap-4 max-sm:mt-6">
@@ -105,7 +105,7 @@ export default function Hero() {
         </div>
       </div>
       <Link
-        href="#p"
+        href="#projects"
         className="sm:absolute max-sm:hidden bottom-1 left-1/2  animate-bounce text-blue-700 text-4xl "
       >
         ▼

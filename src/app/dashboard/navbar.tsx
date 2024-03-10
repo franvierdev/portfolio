@@ -86,7 +86,7 @@ export default function Navbar() {
 
         <Link
           className="p-2 px-3 hover:underline  hover:bg-slate-50/30 ease-in duration-300"
-          href="#p "
+          href="#projects"
           onClick={ct}
         >
           Projects
