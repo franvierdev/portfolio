@@ -1,8 +1,8 @@
 export default function Technologies() {
   return (
-    <section className="container mx-auto ">
-      <h2 className="ms-28 text-5xl font-bold underline">Skills</h2>
-      <ul className="flex justify-between max-w-2xl gap-10 mx-auto mt-10">
+    <section className="container mx-auto max-sm:text-center ">
+      <h2 className=" sm:ms-28 text-5xl font-bold underline">Skills</h2>
+      <ul className="flex max-sm:flex-col justify-between max-w-2xl gap-10 mx-auto mt-10">
         <li className="text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
