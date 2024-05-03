@@ -9,9 +9,9 @@ export default function Projects() {
       <h2 className="sm:text-center max-sm:text-center text-5xl text-gray-800 font-semibold animate-fade-right underline">
         Projects
       </h2>
-      <div className=" mt-10 grid grid-rows-3  max-w-screen-xl items-center w-11/12 sm:w-11/12 text-center mx-auto sm:grid-cols-2 gap-20 gap-x-0  max-sm:gap-y-5  sm:px-4">
-        <div className="border  ">
-          <p className="text-3xl font-bold">Clima-App</p>
+      <div className=" mt-10 grid grid-rows-3  max-w-screen-lg items-center w-11/12 sm:w-11/12 text-center mx-auto sm:grid-cols-2 gap-20 gap-x-0  max-sm:gap-y-1  sm:px-4">
+        <div className="border max-w-sm sm:place-self-end place-self-center self-center ">
+          <p className="text-3xl font-bold leading-10">Clima-App</p>
           <span>
             Proporciona información actualizada sobre las condiciones climáticas
             de diferentes ubicaciones geográficas.
@@ -23,7 +23,7 @@ export default function Projects() {
           </div>
         </div>
         <div
-          className=" place-self-center border max-w-xs 
+          className=" place-self-center max-w-xs max-sm:-mt-2 max-sm:pb-2
         "
         >
           <Link href={"https://clim-app-nu.vercel.app/"}>
@@ -36,7 +36,7 @@ export default function Projects() {
             />
           </Link>
         </div>
-        <div className="max-sm:row-start-4 max-sm:row-end-5 place-self-center">
+        <div className="max-sm:row-start-4 max-sm:row-end-5 sm:place-self-end place-self-center max-sm:-mt-4 max-sm:pb-10">
           <Link href={"https://franvierdev.github.io/Omnifood/"}>
             <Image
               src="/imgs/omnifood.png"
@@ -47,8 +47,8 @@ export default function Projects() {
             />
           </Link>
         </div>
-        <div>
-          <p className="text-3xl font-bold">Omnifood</p>
+        <div className="border max-w-sm place-self-center self-center">
+          <p className="text-3xl font-bold leading-10">Omnifood</p>
           <span>
             servicio de suscripción de comida que ofrece la entrega diaria de
             comidas saludables a domicilio.
@@ -59,7 +59,7 @@ export default function Projects() {
             <p>GitHub</p>
           </div>
         </div>
-        <div>
+        <div className="border max-w-sm sm:place-self-end place-self-center self-center">
           <p className="text-3xl font-bold">Task-Manager</p>
           <span>
             Permite a los usuarios crear, editar y eliminar tareas. tecnologías
@@ -71,7 +71,7 @@ export default function Projects() {
             <p>Vercel</p>
           </div>
         </div>
-        <div className="place-self-center">
+        <div className="place-self-center max-sm:mt-5">
           <Link href={"https://react-task-mngr.vercel.app/"}>
             <Image
               src="/imgs/task-manager.png"
