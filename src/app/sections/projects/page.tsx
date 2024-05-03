@@ -23,7 +23,7 @@ export default function Projects() {
           </div>
         </div>
         <div
-          className=" place-self-center max-w-xs max-sm:-mt-2 max-sm:pb-2 
+          className=" place-self-center max-w-xs max-sm:-mt-2 max-sm:pb-2 overflow-hidden
         "
         >
           <Link href={"https://clim-app-nu.vercel.app/"}>
