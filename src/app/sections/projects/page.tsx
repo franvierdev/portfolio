@@ -23,7 +23,7 @@ export default function Projects() {
           </div>
         </div>
         <div
-          className=" place-self-center max-w-xs max-sm:-mt-2 max-sm:pb-2
+          className=" place-self-center max-w-xs max-sm:-mt-2 max-sm:pb-2 
         "
         >
           <Link href={"https://clim-app-nu.vercel.app/"}>
@@ -32,18 +32,18 @@ export default function Projects() {
               alt=""
               width={1387}
               height={1018}
-              className=" max-sm:max-w-xs  sm:w-72 hover:scale-125 duration-200 "
+              className=" max-sm:max-w-xs  sm:w-72 hover:scale-110 duration-200 "
             />
           </Link>
         </div>
-        <div className="max-sm:row-start-4 max-sm:row-end-5 sm:place-self-end place-self-center max-sm:-mt-4 max-sm:pb-10">
+        <div className="max-sm:row-start-4 max-sm:row-end-5 sm:place-self-end place-self-center max-sm:-mt-4 max-sm:overflow-x-hidden max-sm:pb-10">
           <Link href={"https://franvierdev.github.io/Omnifood/"}>
             <Image
               src="/imgs/omnifood.png"
               alt=""
               width={2227}
               height={1237}
-              className=" max-sm:max-w-xs sm:w-96 hover:scale-125 duration-200"
+              className=" max-sm:max-w-xm sm:w-96 hover:scale-110 duration-200"
             />
           </Link>
         </div>
@@ -71,14 +71,14 @@ export default function Projects() {
             <p>Vercel</p>
           </div>
         </div>
-        <div className="place-self-center max-sm:mt-5">
+        <div className="place-self-center max-sm:mt-5 max-sm:overflow-hidden">
           <Link href={"https://react-task-mngr.vercel.app/"}>
             <Image
               src="/imgs/task-manager.png"
               alt=""
               width={2227}
               height={1237}
-              className=" max-sm:max-w-xs sm:w-96 hover:scale-125 duration-200 "
+              className=" max-sm:max-w-xs sm:w-96 hover:scale-110 duration-200 "
             />
           </Link>
         </div>
