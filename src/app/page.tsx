@@ -12,7 +12,7 @@ export default function Home() {
       <section className="-mt-40 pb-20 2xl:-mt-60 bg-gray-100 " id="projects">
         <Projects />
       </section>
-      <section className="py-28 bg-gray-900 text-gray-100">
+      <section className="py-10 bg-gray-900 text-gray-100">
         <Technologies />
       </section>
     </>
