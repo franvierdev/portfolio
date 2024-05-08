@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="max-sm:mt-6  lg:mt-16 xl:mt-28 2xl:mt-60 2xl:scale-150  sm:w-11/12 max-w-5xl   gap-8 w-xs mx-7 sm:mx-auto sm:h-96 h-[590px] flex max-sm:flex-col max-sm:gap-6 sm:border border-slate-900/40 bg-slate-800/70 backdrop-blur-md rounded-2xl shadow-lg shadow-slate-500/70 px-6 pt-7 sm:p-7">
         <div className=" self-center  animate-fade-down   sm:mx-2  ">
           <Image
-            src="/imgs/perfil.jpg"
+            src="/imgs/perfil.png"
             alt={"asd"}
             width={808}
             height={1080}
@@ -85,22 +85,32 @@ export default function Hero() {
               Web Developer
             </p>
             <div className="flex gap-4 max-sm:mt-6">
-              <button className="  sm:mt-9  inline-flex  bg-blue-600 shadow-inner shadow-blue-800 rounded-xl border border-blue-900 text-gray-200 hover:text-white font-bold px-4 py-2 hover:scale-105 duration-200   hover:shadow-blue-700 hover:shadow-inner hover:bg-blue-500 ">
+              <Link
+                href="https://drive.google.com/file/d/1XSFxzlyCdWZZEUCZLDRgiH-KwTEg8fPc/view?usp=drive_link"
+                className="  sm:mt-9  inline-flex  bg-blue-600 shadow-inner shadow-blue-800 rounded-xl border border-blue-900 text-gray-200 hover:text-white font-bold px-4 py-2 hover:scale-105 duration-200   hover:shadow-blue-700 hover:shadow-inner hover:bg-blue-500"
+              >
                 Download CV
-              </button>
-              <button className="  sm:mt-9  inline-flex  bg-gray-300 shadow-inner shadow-gray-400 rounded-xl border border-gray-500 text-blue-700 font-bold px-4 py-2 hover:scale-105 duration-200 hover:shadow-md hover:shadow-slate-500/70 hover:bg-white ">
+              </Link>
+              <Link
+                href="#projects"
+                className="  sm:mt-9  inline-flex  bg-gray-300 shadow-inner shadow-gray-400 rounded-xl border border-gray-500 text-blue-700 font-bold px-4 py-2 hover:scale-105 duration-200 hover:shadow-md hover:shadow-slate-500/70 hover:bg-white "
+              >
                 Explore More
-              </button>
+              </Link>
             </div>
           </div>
         </div>
         <div className="max-w-sm max-sm:hidden text-gray-300 flex flex-col gap-4 justify-center ">
           <p className="text-4xl ">About me</p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium tempore dolorem doloremque veniam dolore iusto eaque
-            vero? Cumque eveniet ducimus quo, dolorem delectus minus minima
-            inventore, consequatur perspiciatis ipsum nesciunt.
+          <p className="text-sm leading-4">
+            Soy un programador autodidacta con experiencia en la construcción de
+            proyectos personales. <br /> <br />
+            Apasionado por aprender nuevas tecnologías. <br /> <br />
+            Mi enfoque se basa en la autodisciplina y la actualización constante
+            para mantenerme al día en el campo de la programación. <br /> <br />{" "}
+            Disfruto enfrentar desafíos y encontrar soluciones innovadoras.{" "}
+            <br /> <br /> Siempre dispuesto a la colaboración y el aprendizaje
+            en equipo.
           </p>
         </div>
       </div>
