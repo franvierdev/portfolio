@@ -9,7 +9,7 @@ export default function Projects() {
       <h2 className="sm:text-center max-sm:text-center text-5xl text-gray-800 font-semibold animate-fade-right underline">
         Projects
       </h2>
-      <div className=" mt-10 grid grid-rows-3  max-w-screen-lg items-center w-11/12 sm:w-11/12 text-center mx-auto sm:grid-cols-2 gap-16 gap-x-0  max-sm:gap-y-1  sm:px-4">
+      <div className=" mt-10 grid grid-rows-3  max-w-screen-lg items-center w-11/12 sm:w-11/12 text-center mx-auto sm:grid-cols-2 gap-y-16  max-sm:gap-y-1  ">
         <div className="border max-w-sm sm:place-self-end place-self-center self-center ">
           <p className="text-3xl font-bold leading-10">Clima-App</p>
           <span>
@@ -23,7 +23,7 @@ export default function Projects() {
           </div>
         </div>
         <div
-          className=" place-self-center max-w-xs max-sm:-mt-2 max-sm:pb-2 max-sm:overflow-hidden
+          className=" max-sm:place-self-center sm:ms-16 max-w-xs max-sm:-mt-2 max-sm:pb-2 max-sm:overflow-hidden
         "
         >
           <Link href={"https://clim-app-nu.vercel.app/"}>
